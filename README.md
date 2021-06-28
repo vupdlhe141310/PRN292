@@ -1,13 +1,9 @@
 # PRN292
 
-
-
-
-public static bool checkSort(DataTable tbl1, DataTable tbl2)
+        public static bool checkSort(DataTable tbl1, DataTable tbl2)
         {
             if (tbl1.Rows.Count != tbl2.Rows.Count || tbl1.Columns.Count != tbl2.Columns.Count)
                 return false;
-
 
             for (int i = 0; i < tbl1.Rows.Count; i++)
             {
